@@ -1,0 +1,37 @@
+
+    {"intents": [
+        {"tag": "greeting",
+          "patterns": ["Quand l'ENSTAB a-t-elle accueilli sa première promotion d'étudiants ?",
+                      "En quelle année académique l'ENSTAB a-t-elle commencé ses activités ?",
+                      "En quelle année académique l'ENSTAB a-t-elle commencé ses activités ?"],
+          "responses": ["l' ENSTAB a ouvert ses portes en l’année 2014/2015",
+                         "L'année 2014/2015 marque l'ouverture des portes de l'ENSTAB."],
+          "context_set": ""
+        },
+        {"tag": "goodbye",
+          "patterns": ["dans quel but ?",
+                      "Quel est l'objectif ?"],
+          "responses": ["dans le but précis de former des ingénieurs polyvalents, avec de solides compétences pluridisciplinaires dans le domaine des Technologies Avancées."],
+          "context_set": ""
+        },
+        {"tag": "programming",
+          "patterns": ["Quelles sont les options de l'enstab ?",
+                       "Quelles sont les différentes options proposées par l'ENSTAB ?",
+                      "Quelles formations ou spécialisations l'ENSTAB propose-t-elle ?"],
+          "responses": ["L'ENSTAB compte actuellement trois options de formation d'ingénieur : Systèmes Energétiques et technologies propres (SETP), Systèmes industriels et compétitivité (SIC), Electronique avancée et nanotechnologie (EAN)."],
+          "context_set": ""
+        },
+        {"tag": "how",
+          "patterns": ["ou se touve l'enstab ?",
+                       "Dans quelle ville se situe l'ENSTAB ?",
+                      "Où est située l'ENSTAB ?"],
+          "responses": ["Campus Universitaire à Borj-Cédria, BP 122 Hammam-Chott 1164, Tunisie"],
+          "context_set": ""
+        },
+        {"tag": "flask",
+          "patterns": ["Quelle est l'adresse mail de l'ecole ?"],
+          "responses": ["ensta-bdir@ensta-b.rnu.tn"],
+          "context_set": ""
+        }
+      ]
+      }
